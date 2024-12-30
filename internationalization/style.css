@@ -1,0 +1,28 @@
+section {
+    margin-block-start: var(--metric-box-spacing);
+    display: flex;
+    flex-direction: row;
+  }
+  
+  h1 {
+    margin-inline-start: 2rem;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100%;
+    max-width: 3em;
+    text-align: start;
+    margin-inline-end: 1em;
+    margin-inline-start: 2rem;
+  }
+  
+  input {
+    width: 100%;
+    max-width: 16em;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border: 3px solid #555;
+    margin-inline-end: 2rem;
+  }

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title></title>
+    </head>
+    <body>
+        <button>A</button>
+        <button>B</button>
+        <button>C</button>
+        <p>No Handler here. </p>
+        <script>
+            document.body.addEventListener('click', event => {
+                if (event.target.nodeName == 'BUTTON') {
+                    console.log("Clicked", event.target.textContent);
+                }
+            });
+        </script>
+    </body>
+    </html>

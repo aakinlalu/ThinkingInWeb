@@ -1,0 +1,20 @@
+body {  
+    padding: var(--metric-box-spacing);
+  }
+  .table-container {
+    max-inline-size: 100%;
+    overflow-x: auto;
+    scroll-snap-type: inline mandatory;
+    scroll-behavior: smooth;
+  }
+  table {
+    background-color: var(--color-off-white);
+    border-collapse: collapse;
+  }
+  thead th {
+    text-align: start;
+  }
+  th, td {
+    scroll-snap-align: start;
+    padding: var(--metric-box-spacing);
+  }

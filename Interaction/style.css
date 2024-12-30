@@ -1,0 +1,9 @@
+body {
+    padding: var(--metric-box-spacing);
+  }
+  p {
+    margin-block-end: var(--metric-box-spacing);
+  }
+  label {
+    display: block;
+  }
