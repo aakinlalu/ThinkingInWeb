@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title></title>
+            
+    </head>
+    <body>
+        <canvas></canvas>
+        <script>
+            let cx = document.querySelector('canvas').getContext('2d');
+            cx.beginPath();
+            // center=(50, 150) radius = 40 angle = 0 to 7
+            cx.arc(50, 150, 40, 0, 7);
+            // center=(50, 150) radius = 40 angle = 0 to 1/2(PI)
+            cx.arc(50, 150, 40, 0, 1/2 * Math.PI);
+            cx.stroke();
+        </script>
+     </body>
+    </html>
