@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Design Forms
+        </title>
+        <style type="text/css">
+            body {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 0.9em;
+            }
+            form {
+                padding: 1em;
+                background: #f9f9f9;
+                border: 1px solid lightgrey;
+                margin: 2rem auto auto auto;
+                max-width: 600px;
+                border-radius: 5px;
+            }
+
+            form input {
+                margin-bottom: 1em;
+                background: white;
+                border: 1px solid darkgray;
+            }
+
+            form button {
+                background: lightgrey;
+                padding: 0.8em;
+                border: 0;
+            }
+
+            form button:hover {
+                background: deepskyblue;
+            }
+
+            label {
+                text-align: right;
+                display: block;
+                padding: 0.5em 1.5em 0.5em 0;
+            }  
+            
+            input {
+                width: 100%;
+                padding: 0.7em;
+                margin-bottom: 0.5rem;
+            }
+
+            input:focus {
+                outline: 3px solid deepskyblue;
+            }
+
+            form {
+                overflow: hidden;
+            }
+
+            .form-row {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            .form-row > label {
+                flex: 1;
+            }
+
+            .form-row > input {
+                flex: 2;
+            } 
+
+        </style>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form>
+
+            <div class="form-row">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="First Name">
+            </div>
+
+            <div class="form-row">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+            </div>
+
+            <div class="form-row">
+                <label for="birthday">Birth date</label>
+                <input type="date" id="brithday">
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email">
+            </div>
+
+            <div class="form-row">
+                <button>Send</button>
+        </form>
+    </body>
+</html>
