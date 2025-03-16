@@ -1,12 +1,12 @@
-let x: number = 10;
+let num: number = 10;
 let s: string = "Hello";
 let b: boolean = true;
 let arr: number[] = [1, 2, 3];
 let strings: string[] = ["Hello", "World"];
-let looleans: boolean[] = [true, false];
-let numValue: null = null;
+let boolArray: boolean[] = [true, false];
+let nullValue: null = null;
 let numValue2: undefined = undefined;
-console.log(x, s, b, arr, strings, looleans, numValue, numValue2);
+console.log(num, s, b, arr, strings, boolArray, nullValue, numValue2);
 
 //Tuple
 type ColorCount = [string, number];
